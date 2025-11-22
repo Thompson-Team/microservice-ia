@@ -1,0 +1,15 @@
+FRONTEND 
+   ↓
+NODE BACKEND (equipo)
+   - Conexión con Ronin Wallet
+   - Validación de usuario
+   - Enviar el texto a Python
+   ↓
+PYTHON FASTAPI (vos)
+   - Análisis IA
+   - Score final 0-100
+   - Devolver JSON
+   ↓
+NODE BACKEND (equipo)
+   - Llama a smart contract
+   - Guarda score on-chain
